@@ -1,0 +1,98 @@
+/*Estilos para el encabezado*/
+header{
+	background-color:#ea899a;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+}
+header h1{
+	margin:0;
+}
+nav ul{
+	list-style-type:none;
+	padding:0;
+}
+nav ul li{
+	display:inline;
+	margin-right: 20px;
+}
+nav ul li a{
+	color:white;
+	text-decoration:none;
+}
+body{
+	background-color: #f3d9ff
+}
+/*estilo para imagen y superposición*/
+.wrap{
+width: 1325px;
+height: 500px;
+display: flex;
+align-items: end;
+justify-content: center;
+background: linear-gradient;
+background-image: url("imagenfondo.jpg");
+background-size: cover;
+background-position: center;
+}
+.wrap-texto{
+color: white;
+text-align: center;
+width: 50%;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 10px
+}
+/*Estilo para sección de productos*/
+.container{
+	margin: 20px auto;
+	max-width: 800px;
+	padding:28px;
+	background-color:lightblue;
+	border:2px solid #ddd;
+}
+.box{
+	padding: 20px;
+	background-color: #b5ffff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+.producto{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.producto img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+.precio{
+	font-weight: bold;
+	color: green;
+}
+buttom{
+	background-color: #ffffbf;
+	color: white;
+	border: none;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+butto:hover {
+	background-color:#cdb4db;
+}
+/*estilo para el pie de página*/
+footer{
+	background-color:#ffff72;
+	color: black;
+	text-align: center;
+	padding: 0.5px 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
